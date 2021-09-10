@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/veterinaria.css" rel="stylesheet">
+        <script type="text/javascript" src="json/veterinaria.json"></script>
+        <script type="text/javascript" src="js/veterinaria.js"></script>
+
+        <title>Veterinaria "Friends"</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg  bg-dark">
+        <div id="friends"class="navbar-brand" href="#">Veterinaria Friends</div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+
+                <a id="usu"class="nav-link" href="#">  <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+     <!--   <div >
+            <ul class="list-group" id="main">
+            </ul>
+        </div>
+    -->
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad disponible</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">   </tbody>
+        </table>
+    </body>
+</html>
